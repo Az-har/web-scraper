@@ -17,7 +17,7 @@ axios(url)
         articles.push({
             title,
             url
-        })
+        }) 
     })
     console.log(articles)
 }).catch(err => console.log(err))

@@ -7,7 +7,7 @@ const url ='https://www.theguardian.com/uk'
 const app =express()
 axios(url)
 .then(response => {
-    const html = response.data
+    const html =  response.data
     const $ = cheerio.load(html)
     const articles = []
 

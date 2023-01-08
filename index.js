@@ -2,7 +2,7 @@ const axios =require('axios')
 const cheerio =require('cheerio')
 const express =require('express')
 const PORT = 8000 
-const url ='https://www.theguardian.com/uk'
+const url ='https://www.hindutamil.in/'
 
 const app =express()
 axios(url)
